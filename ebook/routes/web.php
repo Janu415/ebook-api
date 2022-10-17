@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use PhpParser\Node\Stmt\Return_;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,8 @@ Route::get('/', function () {
 
 Route::get('coba', function () {
     return "Halo" ;
+});
+//array json
+Route::get('coba1', function(){
+    return(['janu','girindra','aji']);
 });
